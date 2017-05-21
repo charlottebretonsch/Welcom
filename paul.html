@@ -1,0 +1,211 @@
+<!doctype html>
+
+<html>
+
+	<head>
+		<title>Welcom</title>
+		<meta charset="utf-8"/>
+		<meta name="author" content="Welcom"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+	    <link rel="stylesheet" href="style/reset.css" />
+	    <link rel="stylesheet" href="style/main.css" />
+	    <link rel="stylesheet" href="style/responsive.css" />
+	    <script src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
+	    <script src="script/main.js"></script>
+	    <script src="script/paypal.js"></script>
+	    <link href='http://fonts.googleapis.com/css?family=Karla:400,400italic,700,700italic' rel='stylesheet' type='text/css'>
+	    <!--<link rel="icon" href="img-layout/favicon.ico"/>-->
+	</head>
+
+	<body id="profile">
+
+
+		<!-- HEADER -->
+
+		<header class="fixed stayfixed">
+			<div class="wrap">
+				<a href="index.html" id="logo"></a>
+				<div id="signin" class="button">My account</div>
+			</div>
+		</header>
+
+
+
+		<!-- CONTENT -->
+
+		<div class="profile paul">
+				<form id="research" class="fixed ">
+					<input id="who" placeholder="Who ?">
+					<input id="where" placeholder="Where ?">
+					<input id="when" type="date" name="bday">
+					<input id="search" type="submit" value="Research">
+				</form>
+		</div>
+
+
+
+
+
+		<div class="wrap clearfix">
+
+
+
+
+			<!-- ABOUT PROFILE -->
+
+			<div class="col">
+
+				<div class="about-profile">
+					<!-- identity of the welcomer -->
+					<div class="row">
+						<h3>Paul</h3>
+						<h4>33 years old <span class="rating r4"></span> </h4>
+					</div>
+					<!-- description of the welcomer -->
+					<div class="row parag">
+						<p>I’m a professionnal photographer. We can make an awesome experience in Paris and see the best views of the city.</p>
+						<h4 class="hashtag">#photo #Paris #panorama</h4>
+					</div>
+					<div id="profile-contact" class="button">Contact</div>
+
+				</div>
+
+			</div>
+
+
+
+
+			<!-- ACTIVITIES -->
+
+			<div class="col">
+
+				<!-- Activity 1 -->
+
+				<div class="bloc glimpse profile-activity">
+					<div class="content">
+
+						<!-- change category name "diner" -->
+						<div class="category photo white"></div>
+						<!-- change image "activity-name" -->
+						<img src="img-content/activities/activity-paul.jpg">
+
+						<div class="about">
+							<!-- identity of the activity -->
+							<div class="row">
+								<h3>Take pictures of Paris</h3>
+								<h4 class="price">30€/pers</h4>
+							</div>
+							<!-- description of the activity -->
+							<!--
+							<div class="row parag">
+								<p><p>I suggest you travel in France through wine and cheese. During two hours, we will taste different types of cheese and taste several glasses of wine.</p></p>
+							</div>
+							-->
+							<div class="separator"></div>
+							<!-- included -->
+							<div class="row clearfix">
+								<h4>Included in the activity :</h4>
+								<img class="activity-icon" src="img-layout/activity/included-talk.png">
+							</div>
+							<!-- bring -->
+							<div class="row clearfix">
+								<h4>Don't forget to bring :</h4>
+								<img class="activity-icon" src="img-layout/activity/tobring-credit.png">
+							</div>
+							<!-- informations -->
+							<div class="row">
+								<h4 class="plus">Duration of the activity : 4h</h4>
+								<h4 class="plus">Number of participant maximum : 4</h4>
+							</div>
+							<div class="separator"></div>
+							<script async="async" src="https://www.paypalobjects.com/js/external/paypal-button.min.js?merchant=3LMBXXSQES6TC"
+							  	data-button="buynow"
+							  	data-name="Take pictures of Paris"
+							  	data-quantity="1"
+							  	data-amount="30.00"
+							  	data-currency="EUR"
+							  	data-shipping="0.00"
+							  	data-tax="0.00"
+							  	data-callback="http://welcom.bitbucket.org/">
+							</script>
+						</div>
+
+					</div>
+				</div>
+
+			</div>
+
+
+
+
+		</div>
+
+
+
+
+
+
+
+
+
+		<!-- FOOTER -->
+
+
+
+
+
+		<footer class="home-row dark clearfix">
+			<div class="wrap">
+				<div class="home-wrapper clearfix">
+					<div class="home-bloc-5">
+						<h3>Who we are</h3>
+					</div>
+					<div class="home-bloc-5">
+						<h3>What is Welcom</h3>
+					</div>
+					<div class="home-bloc-5">
+						<h3>Jobs</h3>
+					</div>
+					<div class="home-bloc-5">
+						<h3>Terms</h3>
+					</div>
+					<div class="home-bloc-5">
+						<h3>Contact us</h3>
+					</div>
+				</div>
+			</div>
+		</footer>
+
+
+
+		<!-- OVERLAY -->
+
+		<div id="overlay-account" class="overlay">
+			<div class="popin">
+				<div class="popin-content">
+					<img class="denied" src="img-content/home/signup.png">
+					<h3>Sign Up</h3>
+					<h3 class="h3-info">Registrations are <br>currently closed. <br> Leave your email to be notified of Welcom's movements.</h3>
+					<form class="clearfix">
+						<input id="email" placeholder="Email">
+					</form>
+						<div id="signup" class="button">Sign Up</div>
+					<h5 class="close">close</h5>
+				</div>
+			</div>
+		</div>
+
+
+	</body>
+
+</html>
+
+
+
+
+
+
+
+
+
+
